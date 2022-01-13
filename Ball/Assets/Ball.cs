@@ -23,5 +23,8 @@ public class Ball : MonoBehaviour
         // float distance;
         // distance = transform.position.z - startingPoint;
         // Debug.Log(distance);
+        if(Input.GetKeyDown(KeyCode.Space)){
+            GetComponent<Rigidbody>().AddForce(Vector3.up * 300);
+        }
     }
 }
