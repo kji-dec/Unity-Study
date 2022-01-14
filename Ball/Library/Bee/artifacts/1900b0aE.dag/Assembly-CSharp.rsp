@@ -352,6 +352,8 @@
 "Assets/Ground.cs"
 "Assets/Obstacle.cs"
 "Assets/RedCoin.cs"
+"Assets/Shooter.cs"
+"Assets/Stone.cs"
 -langversion:9.0
 
 /deterministic

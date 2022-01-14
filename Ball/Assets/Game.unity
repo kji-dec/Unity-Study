@@ -974,7 +974,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &744279510
 Transform:
   m_ObjectHideFlags: 0
@@ -1078,9 +1078,9 @@ GameObject:
   - component: {fileID: 925567527}
   - component: {fileID: 925567526}
   - component: {fileID: 925567525}
-  - component: {fileID: 925567524}
+  - component: {fileID: 925567528}
   m_Layer: 0
-  m_Name: Obstacle (1)
+  m_Name: Shooter
   m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1101,18 +1101,6 @@ Transform:
   m_Father: {fileID: 2058624366}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &925567524
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 925567522}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 373d03b6b9c815949b30ce719c4c38d1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!136 &925567525
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -1147,7 +1135,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 2115e73eb90496e42b6a57de0aa6e4cd, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1177,6 +1165,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 925567522}
   m_Mesh: {fileID: 10206, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &925567528
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 925567522}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0be36242909fe0845ae1d9ae747de5b7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  stone: {fileID: 7967463126726313870, guid: 10eff2bf2e592944db7872cd618d0a33, type: 3}
 --- !u!1 &963194225
 GameObject:
   m_ObjectHideFlags: 0
@@ -1577,6 +1578,7 @@ GameObject:
   - component: {fileID: 1554040234}
   - component: {fileID: 1554040233}
   - component: {fileID: 1554040232}
+  - component: {fileID: 1554040236}
   m_Layer: 0
   m_Name: Coin (1)
   m_TagString: Coin
@@ -1675,6 +1677,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1554040230}
   m_Mesh: {fileID: 10206, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1554040236
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1554040230}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0be36242909fe0845ae1d9ae747de5b7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  stone: {fileID: 0}
 --- !u!1 &1560243733
 GameObject:
   m_ObjectHideFlags: 0

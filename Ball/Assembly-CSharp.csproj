@@ -39,11 +39,13 @@
      <Compile Include="Assets\RedCoin.cs" />
      <Compile Include="Assets\Ball.cs" />
      <Compile Include="Assets\Ground.cs" />
+     <Compile Include="Assets\GameManager.cs" />
      <Compile Include="Assets\CameraWork.cs" />
      <Compile Include="Assets\Coin.cs" />
      <Compile Include="Assets\FailZone.cs" />
      <Compile Include="Assets\Obstacle.cs" />
-     <Compile Include="Assets\GameManager.cs" />
+     <Compile Include="Assets\Stone.cs" />
+     <Compile Include="Assets\Shooter.cs" />
     <Reference Include="UnityEngine">
         <HintPath>C:\Program Files\Unity\Hub\Editor\2021.2.7f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
     </Reference>
