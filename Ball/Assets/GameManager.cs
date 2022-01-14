@@ -1,11 +1,13 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class GameManager : MonoBehaviour
 {
-    int coinCount = 0;
-    void RestartGame(){
+    public Text coinText;
+    public int coinCount = 0;
+    public void RestartGame(){
         Application.LoadLevel("Game");
     }
 
@@ -23,12 +25,13 @@ public class GameManager : MonoBehaviour
     void GetCoin(){
         coinCount ++;
         Debug.Log(coinCount);
+        coinText.text = coinCount + "개";
     }
 
     // Start is called before the first frame update
     void Start()
     {
-        
+        coinText.text = coinCount + "개";
     }
 
     // Update is called once per frame

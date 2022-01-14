@@ -6,6 +6,7 @@ public class Coin : MonoBehaviour
 {
     void OnTriggerEnter(Collider col) {
         if(col.gameObject.name == "Ball"){
+            GameObject.Find("GameManager").SendMessage("GetCoin");
             Destroy(gameObject);
         }
     }
