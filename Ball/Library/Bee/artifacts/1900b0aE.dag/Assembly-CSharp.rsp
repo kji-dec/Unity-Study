@@ -348,6 +348,7 @@
 "Assets/CameraWork.cs"
 "Assets/Coin.cs"
 "Assets/FailZone.cs"
+"Assets/GameManager.cs"
 "Assets/Ground.cs"
 "Assets/Obstacle.cs"
 "Assets/RedCoin.cs"
