@@ -350,6 +350,7 @@
 "Assets/FailZone.cs"
 "Assets/Ground.cs"
 "Assets/Obstacle.cs"
+"Assets/RedCoin.cs"
 -langversion:9.0
 
 /deterministic
